@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ministry of culture</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <button id="toggle-btn" onclick="toggleChatbot()">
+        <i class="fas fa-comments"></i> <!-- Font Awesome icon for chat -->
+    </button>
+    <div id="chatbot-container">
+        <div id="chat-box"></div>
+        <input type="text" id="user-input" placeholder="Type a message...">
+        <button id="send-btn" onclick="sendMessage()">Send</button>
+    </div>
+    <div class="speakable">
+    <header>
+        <div class="slogan">
+            <div id="google_translate_element"></div>
+        </div>
+        
+        <div class="slogan">
+            satyamev jayate
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about .html">ABOUT US</a></li>
+                <li><a href="mygov.html">MY GOVERNMENT</a></li>
+                <li><a href="https://indiaculture.gov.in/contact-list-directory">CONTACT US</a></li>
+            </ul>
+        </nav>
+    </header>
+    <header>
+        <div class="slogan">
+          <button onclick="speakBodyContent('en')">Read loud</button>
+          <button onclick="pauseSpeech()">Pause</button>
+    <button onclick="resumeSpeech()">Resume</button>
+    <button onclick="stopSpeech()">Stop</button>
+      </div>
+      </header>
+    <header1>
+        <div class="logo">
+            <img src="logo.png">
+        </div>
+        <div class="logo">
+            <img src="G20.png">
+        </div>
+        <div class="logo">
+            <img src="gandhi.png">
+        </div>
+    </header1>
+    <br>
+    <div class="webinfo">
+        <h1>Festivals</h1>
+        <ul>
+            <li>Milad-Un-Nabi/Id-E-Milad</li>
+            <li>Republic Day</li>
+            <li>Holi</li>
+            <li>Ram Navami</li>
+            <li>Mahavir Jayanti</li>
+            <li>Good Friday</li>
+            <li>Buddha Purnima</li>
+            <li>Idu’l Fitr</li>
+            <li>Independence Day</li>
+            <li>Janmashtami</li>
+            <li>Gandhi Jayanti</li>
+            <li>Dussehra (Vijay Dashami)</li>
+            <li>Idu’l Zuha (Bakrid)</li>
+            <li>Diwali (Deepawali)</li>
+            <li>Muharram</li>
+            <li>Guru Nanak Jayanti</li>
+            <li>Christmas</li>
+            <li>Makar Sankranti, Pongal</li>
+            <li>Raksha Bandhan</li>
+            <li>Onam</li>
+                </ul>
+    </div>
+    <br>
+
+    <section id="footer">
+        <a href="terms.html"><button class="terms"> Terms & Conditions</button></a>
+        <a href="privacy.html"><button class="terms"> Privacy Policy</button></a>
+        <a href="copyright.html"><button class="terms"> Copyright Policy</button></a>
+        <a href="help.html"><button class="terms">Help</button></a>
+        <a href="webinfo.html"><button class="terms">Web Information </button></a>
+
+        <h4>Copyright© 2024 Ministry of Culture, Government of India, All Rights Reserved.</h4>
+        <br>
+        <h4>Created by Techno Crafters </h4>
+        <div class="social-media-icons">
+          <a href="https://www.youtube.com/user/sanskritigoi" target="_blank"><img src="youtube1.png" alt="YouTube"></a>
+          <a href="https://www.instagram.com/ministryofculturegoi/" target="_blank"><img src="ig.png" alt="Instagram"></a>
+          <a href="https://twitter.com/MinOfCultureGoI" target="_blank"><img src="twitter.png" alt="Twitter"></a>
+        </div>
+    </section>
+
+    </div> <!-- Google Translate Widget -->
+
+<div id="google_translate_element"></div>
+
+
+
+
+
+<!-- Content to Translate -->
+<div data-lang="en" class="translated-content">
+
+    <!-- Add more elements with data-translate attribute for translation -->
+</div>
+
+
+<script src="index.js"></script>
+<!--Load Google Translate API-->
+<script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ministry of culture</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <!--CHAT BOT -->
+    
+    <button id="toggle-btn" onclick="toggleChatbot()">
+        <i class="fas fa-comments"></i> <!-- Font Awesome icon for chat -->
+    </button>
+    <div id="chatbot-container">
+        <div id="chat-box"></div>
+        <input type="text" id="user-input" placeholder="Type a message...">
+        <button id="send-btn" onclick="sendMessage()">Send</button>
+    </div>
+
+    
+<div class="speakable">
+
+    <header>
+        <div class="slogan">
+            <div id="google_translate_element"></div>
+        </div>
+        
+        <div class="slogan">
+            satyamev jayate
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about .html">ABOUT US</a></li>
+                <li><a href="mygov.html">MY GOVERNMENT</a></li>
+                <li><a href="https://indiaculture.gov.in/contact-list-directory">CONTACT US</a></li>
+            </ul>
+        </nav>
+    </header>
+    <header>
+        <div class="slogan">
+          <button onclick="speakBodyContent('en')">Read loud</button>
+          <button onclick="pauseSpeech()">Pause</button>
+    <button onclick="resumeSpeech()">Resume</button>
+    <button onclick="stopSpeech()">Stop</button>
+      </div>
+      </header>
+    <header1>
+        <div class="logo">
+            <img src="logo.png">
+        </div>
+        <div class="logo">
+            <img src="G20.png">
+        </div>
+        <div class="logo">
+            <img src="gandhi.png">
+        </div>
+    </header1>
+    <br>
+
+    <a href="library.html">
+    <button target="self" class="Libary"> Libary 
+    </button></a>
+    <a href=#>
+    <button target="_self" class="manuscript">  manuscript
+    </button></a>
+    <div>
+        <p>ENGAGING WITH THE PAST
+            India’s manuscripts have for centuries captured the imagination of the world. As early as the seventh century Chinese traveller Hiuen Tsang took back hundreds of manuscripts from India. Later in the late eighteenth century, the Nawab of Awadh gifted a superb illuminated manuscript of the Padshahnama to King George III of England. Today, it is considered one of the finest pieces in the Royal Collection. When the English East India Company first came to India, they acknowledged the sub-continent as the bearer of a great and rich civilization that abounded in intellectual and artistic endeavour. Great scholars took an avid interest in many facets of the culture of the sub-continent as found in the vast treasure of handwritten manuscripts on a variety of materials including palm leaf, paper, cloth and even gold and silver.
+            
+            THE EARLY PHASE OF CATALOGUING
+            As early as 1803, the idea of a “catalogue of all most useful Indian works now in existence with an abstract of their contents” was put to the Asiatic Society (as quoted in M. L. Saini “Manuscript Literature in Indian Languages” in ILA Bulletin , 5.1, Jan-Mar 1969, pp 6-21). Four years later, H. T. Colebrook as the Society's fourth president appealed to the Government to set aside an additional grant of five or six thousand rupees per annum to undertake such a catalogue. This early phase of cataloguing by the Orientalists took place amidst a fervent phase of institution building (the establishment of the Benarus Sanskrit College, the universities in the three Presidencies and Oriental Research Institutes among others) and the rise of Western education in India.
+            
+            NEW CATALOGUS CATALOGORUM 
+            Meanwhile, European Indologists had begun to undertake landmark translations of ancient and medieval literary and scientific works based on manuscripts they had found. F. Max Muller's translation of the Rigveda in 1849 was one such landmark. Another was the release of Theodore Aufrecht's Catalogus Catalogorum (“Catalogue of Catalogues”) in the years 1891-1903 of Sanskrit manuscripts that was compiled with considerable personal effort and expense. the great librarian of the Mysore institute, R. Shama Shastri, Madras University undertook the publication of the New Catalogus Catalogorum in 1937 and reached the letter ‘bh'. The project was suspended after the publication of the first fourteen volumes
+            
+            Pandit Jawaharlal Nehru, the first Prime Minister of India was aware of the intellectual heritage of India took a personal interest in ensuring that the Gilgit manuscripts, to date India's oldest manuscripts from the sixth century A.D., were brought from Kashmir to the National Archives of India to be preserved for posterity.
+    </div>
+
+
+    </div>
+
+    <section id="footer">
+        <a href="terms.html"><button class="terms"> Terms & Conditions</button></a>
+        <a href="privacy.html"><button class="terms"> Privacy Policy</button></a>
+        <a href="copyright.html"><button class="terms"> Copyright Policy</button></a>
+        <a href="help.html"><button class="terms">Help</button></a>
+        <a href="webinfo.html"><button class="terms">Web Information </button></a>
+
+        <h4>Copyright© 2024 Ministry of Culture, Government of India, All Rights Reserved.</h4>
+        <br>
+        <h4>Created by Techno Crafters </h4>
+        <div class="social-media-icons">
+          <a href="https://www.youtube.com/user/sanskritigoi" target="_blank"><img src="youtube1.png" alt="YouTube"></a>
+          <a href="https://www.instagram.com/ministryofculturegoi/" target="_blank"><img src="ig.png" alt="Instagram"></a>
+          <a href="https://twitter.com/MinOfCultureGoI" target="_blank"><img src="twitter.png" alt="Twitter"></a>
+        </div>
+    </section>
+</div>
+     <!-- Google Translate Widget -->
+
+     <div id="google_translate_element"></div>
+ 
+ 
+     <!-- Content to Translate -->
+     <div data-lang="en" class="translated-content">
+ 
+         <!-- Add more elements with data-translate attribute for translation -->
+     </div>
+ 
+ 
+     <script src="index.js"></script>
+     <!--Load Google Translate API-->
+     <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+ 
+</body>
+</html>
